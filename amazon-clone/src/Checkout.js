@@ -10,8 +10,8 @@ function Checkout() {
   const [{ basket, user }, dispatch] = useStateValue();
 
   return (
-    <>
-    <Header/>
+    // <>
+    // <Header/>
     <div className="checkout">
       <div className="checkout__left">
       <img
@@ -41,7 +41,7 @@ function Checkout() {
         <Subtotal />
       </div>
     </div>
-    </>
+    //  </> 
   );
 }
 

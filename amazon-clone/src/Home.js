@@ -5,8 +5,8 @@ import Header from "./Header"
 
 function Home() {
   return (
-    <>
-<Header />
+//     <>
+// <Header />
     <div className="home">
       <div className="home__container">
         <img
@@ -71,7 +71,7 @@ function Home() {
       </div>
     </div>
     
-</>
+// </>
   )
 }
 
