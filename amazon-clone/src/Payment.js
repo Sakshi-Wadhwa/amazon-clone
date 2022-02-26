@@ -9,17 +9,17 @@ function Payment() {
   return (
     <div className='payment'>
         <div className='payment__container'>
-        {/* Checkout (
+        Checkout (
                         <Link to="/checkout">{basket?.length} items</Link>
-                        ) */}
+                        )
                 <div className='payment__section'>
                      <div className='payment__title'>
                             <h3>Delivery Address</h3>
                      </div>
                         <div className='payment__address'>
                         <p>{user?.email}</p>
-                        <p>123 React Lane</p>
-                        <p>Los Angeles, CA</p>
+                        <p>House no:xxx,Sector:yyy</p>
+                        <p>Panchkula,13****</p>
                     </div>
                 </div>
 
